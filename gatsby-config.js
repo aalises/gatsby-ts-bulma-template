@@ -3,7 +3,7 @@ const config = require('./config/website')
 const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
 
 module.exports = {
-  pathPrefix: config.pathPrefix,
+  pathPrefix,
   siteMetadata: {
     siteUrl: config.siteUrl + pathPrefix,
   },
@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/static/images/`,
+        path: `${__dirname}/${config.pathPrefix ? '' : `${config.pathPrefix}/`}static/images/`,
         name: 'images',
       },
     },
