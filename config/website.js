@@ -4,7 +4,7 @@ module.exports = {
   siteTitleAlt: 'Gatbsy-ts-bulma',
   siteTitleShort: 'Gatsby Template',
   siteHeadline: 'Template for Gatsby + TS + Bulma',
-  siteUrl: 'https://ts-template.com',
+  siteUrl: 'https://aalises.github.io',
   siteLanguage: 'en',
   siteDescription: 'Template for Gatsby + TS + Bulma',
   author: 'Albert Alises Sorribas',
