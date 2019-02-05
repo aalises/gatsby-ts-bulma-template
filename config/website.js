@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/',
+  pathPrefix: '/gatsby-ts-bulma-template',
   siteTitle: 'Gatsby Typescript Bulma',
   siteTitleAlt: 'Gatbsy-ts-bulma',
   siteTitleShort: 'Gatsby Template',
